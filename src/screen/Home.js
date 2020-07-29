@@ -56,7 +56,7 @@ const App = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <View style={styles.header}>
-                <Text style={styles.txtHeader}>Search User Repository</Text>
+                <Text style={styles.txtHeader}>Search User Repositories</Text>
             </View>
             <View style={styles.contentSearch}>
                 <TextInput
@@ -100,7 +100,8 @@ const styles = StyleSheet.create({
     },
     txtHeader: {
         fontSize: 25,
-        color: 'black'
+        color: 'black',
+        textTransform: 'capitalize'
     },
     contentSearch: {
         width: '100%',
